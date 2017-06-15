@@ -1,3 +1,7 @@
+/*
+ * Cron Job to get real time weather data
+ */
+
 var MongoClient = require('mongodb').MongoClient;
 var request = require('request');
 var cron = require('node-cron');
